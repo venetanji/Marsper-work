@@ -6,7 +6,7 @@ import numpy as np
 from matplotlib.colors import LinearSegmentedColormap
 
 # 读取数据
-csv_path = r'C:\Users\Marsper\Desktop\SD5913\assignment code\Marsper-work\123.csv'
+csv_path = r'123.csv'
 df = pd.read_csv(csv_path)
 
 # 反转数据顺序，让时间从早到晚（8月到9月）
